@@ -23,6 +23,15 @@ for(i=0; i<row.length; i++){
     }
 }
     
+const cells = document.querySelectorAll('.b')
+for(i=0; i<cells.length; i++){
+    cells[i].addEventListener('click', () => alert('hey'))
+}
+/*
+cells.forEach(cell => cell.addEventListener('click', () => alert('hey')))
+using the above, clicking once results in a myriad of alerts that say 'hey'
+*/
+
 
 
 
